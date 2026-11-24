@@ -11,28 +11,28 @@
 
 const score = 100
 const scoreValue = 100.3
-console.log(typeof score);
-console.log(typeof scoreValue);
+console.log(`type of score is ${typeof score}`);
+console.log(`type of scoreValve is ${typeof scoreValue}`);
 
 
 const isLoggedIn = false
 const outSideTemp = null
 let userEmail;
-console.log(typeof isLoggedIn);
-console.log(typeof outSideTemp);
-console.log(typeof userEmail);
+console.log(` typer of isloggedin is ${typeof isLoggedIn}`);
+console.log(`type of outsidetemp is ${typeof outSideTemp}`);
+console.log(`type of useremail is ${typeof userEmail}`);
 
 
 const id = Symbol('123')
 const anotherid = Symbol('123')
-console.log(typeof id);
-console.log(typeof anotherid);
+console.log(`type of id is ${typeof id}`);
+console.log(` type of anotherid is ${typeof anotherid}`);
 
 
 console.log(id === anotherid);
 
 const bigNumber = 9127349240n
-console.log(typeof bigNumber);
+console.log(`type of bignumber is ${typeof bigNumber}`);
 
 
 
@@ -52,7 +52,7 @@ const myFunction = function(){
    console.log("hello");
 }
 
-console.log(typeof myFunction);
+console.log(` type of myfunction is ${typeof myFunction}`);
 
 
 // ******* Memory *******
