@@ -55,4 +55,32 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 
+// ******* Memory *******
+// 1. Stack => provide data's copy
+//  => use in primitive data type
+
+//  2. heap => provide data's location
+//   => use in non-primitive data type
+
+let myInstausername = "amit2"
+
+let anotherName = myInstausername
+anotherName = "onlyamit"
+
+console.log(anotherName);
+console.log(myInstausername);
+
+let userOne = // stack
+{
+   // heap
+   email : "amit@gmail.com",
+   upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
