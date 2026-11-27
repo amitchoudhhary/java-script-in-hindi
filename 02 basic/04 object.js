@@ -52,5 +52,27 @@ console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // for property user that is available or not
 
+// object de-structure  ===>>> is m kafi jaghe p ({}) aishe bhi milega
+const course = {
+  coursename: "js in hindi",
+  Price: "999",
+  courseInstructor: "amit"
+}
+
+// course.couseInstructor
+const {courseInstructor} = course 
+// (or)  for to change name meanse if we want to call object by another name then we have to write ===>>> const {coureInstructor: instructor} = course   ===>>> then we have to write for print console.log(instructor)
+const {Price} = course 
+console.log(Price);
+console.log(courseInstructor);
+
+// json (javascript object notation) format   is m key or value dono string m likhi hoti h
+// {
+//   "name": "amit",
+//   "coursename": "js in hindi",
+//   "price": "free"
+// }
+
+
 
 
