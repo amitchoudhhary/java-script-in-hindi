@@ -22,13 +22,13 @@ function addTwoNumbers (number1, number2) {
 
 // jab funtion ko call krate h tb us m jo value pass karte h unhe bolte h arguments
 const result = addTwoNumbers(3,4) // ==>> output is 7
-console.log("result:", result) // ===>>> undefined
+// console.log("result:", result) // ===>>> undefined
 
 function loginUserMessage(username){
   return `${username} just logged in`
 }
 
-console.log(loginUserMessage("hemraj"))  // agar yaha value pass nhi hogi to yaha print k time undefined lika hua aayga
+// console.log(loginUserMessage("hemraj"))  // agar yaha value pass nhi hogi to yaha print k time undefined lika hua aayga
 
 
 // if else condition agar vaha p usernaem nhi diya hua h to ham direct use bolenge ki yaha username do 
@@ -40,3 +40,34 @@ function loginUserMessage(username /* or yaha apan default value bhe d sake h ja
  }
   return `${username} just logged in`
 }
+
+// console.log(loginUserMessage);
+
+function calculateCarPrice(...num1){
+  return num1
+}
+
+// console.log(calculateCarPrice(200, 400, 500, 600));
+
+const user = {
+  username: "aman",
+  price: 199
+}
+
+function handleObject(anyobject){
+  console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+// handleObject({
+//   username: "ram",
+//   price: 300
+// })
+
+const myNewArray = [200, 300, 400, 500]
+
+function returnSecondValue(getArray){
+  return getArray[0]
+}
+
+console.log(returnSecondValue(myNewArray))
